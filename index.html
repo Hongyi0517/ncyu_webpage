@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>期末報告 - 個人網頁</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>我的網頁</title>
+</head>
+<body style="text-align:center;font-family:微軟正黑體">
+  <h1><b><i>個人簡介</i></b></h1>
+  <img src="https://pic.616pic.com/ys_img/01/02/52/frjIWPZdtF.jpg" alt="周紘毅照片">
+  <div class="personal-info">
+    <p><span class="label">姓名:</span> 周紘毅</p>
+    <p><span class="label">學校:</span> 國立嘉義大學</p>
+    <p><span class="label">Email:</span> <a href="mailto:a0979260517@icloud.com">a0979260517@icloud.com</a></p>
+  </div>
+  <p>興趣 :
+      <ul>
+        <li>看漫畫</li>
+        <li>聽音樂</li>
+        <li>看動畫</li>
+      </ul>
+  <p style="font-size: 20px; color: #4CAF50; font-weight: bold; margin-top: 20px;">喜歡的動漫歌曲</p>
+  <p>this game</p>
+  <!-- 影片 -->
+  <iframe width="300" height="200" src="https://www.youtube.com/embed/FghoeusbkUk?controls=1&autoplay=0&mute=1"       frameborder="0"
+    allow="encrypted-media"
+    allowfullscreen
+    style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+  </iframe>
+  </p>
+<!-- 按鈕 -->
+<button onclick="showRandomImage()">顯示隨機gif</button>
+
+<!-- 圖片顯示區域 -->
+<div id="image-container" style="display: none;">
+    <img id="random-image" src="" alt="隨機圖片">
+</div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

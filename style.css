@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: "微軟正黑體", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    }
+
+h1 {
+    color: #4CAF50;
+    margin-top: 20px;
+    }
+
+img {
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    }
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    margin-top: 5px;
+    }
+
+ul li {
+    color: black;
+    padding: 8px;
+    margin: 5px auto;
+    width: 200px;
+    }
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 8px;
+    }
+    
+iframe {
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+a:hover {
+    text-decoration: underline;
+    }
+
+/* 圖片容器樣式 */
+#image-container {
+    margin-top: 20px;
+    text-align: center; /* 圖片居中顯示 */
+    }
+
+/* 圖片樣式 */
+img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    }
